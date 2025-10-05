@@ -1,5 +1,4 @@
 const axios = require('axios')
-const { address } = require('framer-motion/client')
 
 module.exports.getAddressCoordinate = async (address) => {
     const apiKey = process.env.GOOGLE_MAPS_API_KEY;
